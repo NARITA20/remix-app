@@ -19,10 +19,10 @@ export default function Index() {
           <a
             className="text-blue-700 underline visited:text-purple-900"
             target="_blank"
-            href="https://remix.run/docs"
+            href="https://www.deepl.com/ja/translator"
             rel="noreferrer"
           >
-            Remix Docs
+            deeple
           </a>
         </li>
         <li>
