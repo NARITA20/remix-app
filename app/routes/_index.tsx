@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
-import koike from '.vscode/images/kokuritukyuogizyou.jpg'
+import koike from '.vscode/images/umi.jpg'
 
 export const meta: MetaFunction = () => {
   return [
