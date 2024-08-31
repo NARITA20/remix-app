@@ -22,10 +22,10 @@ export default function Index() {
           <a
             className="text-blue-700 underline visited:text-purple-900"
             target="_blank"
-            href="https://www.deepl.com/ja/translator"
+            href="https://remix-app-7jy.pages.dev/book"
             rel="noreferrer"
           >
-            deeple
+            book
           </a>
         </li>
         <li>
