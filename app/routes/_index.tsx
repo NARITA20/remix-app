@@ -13,14 +13,23 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
-      <h1 className="text-3xl">プログラミング初心者講習へようこそ</h1>
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-      
-        <p> 
-          第1章:プログラミング言語とは
+    <div className="relative flex justify-center">
+      <img src={koike} className="App-logo" alt="logo" />
+
+      <p> 
+          私を一言で表すと、
         </p>
-        <img src={koike} className="App-logo" alt="logo" />
+      <h1 className="text-3xl">真面目</h1>
+      <p> 
+          な人間です。
+        </p>
+      <ul className="list-disc mt-4 pl-6 space-y-2">
+      {/* .marker-border-2{
+      background:linear-gradient(transparent 60%, #ffcc99 0%);} */}
+      <h2 className="marker-border-2">
+        Skills
+      </h2>
+        
 
         <li>
           <a
