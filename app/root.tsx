@@ -20,8 +20,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
-        background-color: #D1E9F6;
+      <body style={{ backgroundColor: '#D1E9F6'}}>
+      
         <Nbar />
         {children}
         <ScrollRestoration />
