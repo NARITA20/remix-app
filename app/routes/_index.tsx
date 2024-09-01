@@ -13,35 +13,36 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="relative flex justify-center">
+    <div className="font-sans p-4">
       <img src={koike} className="App-logo" alt="logo" />
 
-      <p> 
+      <p style={{textAlign: "center"}}> 
           私を一言で表すと、
         </p>
-      <h1 className="text-3xl">真面目</h1>
-      <p> 
+      <h1 style={{textAlign: "center"}}>真面目</h1>
+      <p style={{textAlign: "center"}}> 
           な人間です。
         </p>
       <ul className="list-disc mt-4 pl-6 space-y-2">
       {/* .marker-border-2{
       background:linear-gradient(transparent 60%, #ffcc99 0%);} */}
-      <h2 className="marker-border-2">
+      <h2 className="marker-border-2" style={{textAlign: "center"}}>
         Skills
       </h2>
         
 
-        <li>
+        <li style={{textAlign: "center"}}>
           <a
             className="text-blue-700 underline visited:text-purple-900"
             target="_blank"
             href="https://remix-app-7jy.pages.dev/book"
             rel="noreferrer"
+            
           >
             book
           </a>
         </li>
-        <li>
+        <li style={{textAlign: "center"}}>
           <a
             className="text-blue-700 underline visited:text-purple-900"
             target="_blank"
