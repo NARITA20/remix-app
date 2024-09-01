@@ -20,16 +20,19 @@ export default function Index() {
         私を一言で表すと、
       </p>
       
+      <div style={{textAlign: "center"}}>
       <h1 
         style={{ 
-          textAlign: "center", 
+           
           backgroundImage: "linear-gradient(transparent 60%, #ffcc99 60%)",
           display: "inline-block",
         }}
       >
         真面目
       </h1>
+      </div>
       
+
       <p style={{ textAlign: "center" }}>
         な人間です。
       </p>
