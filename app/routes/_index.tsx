@@ -31,7 +31,7 @@ export default function Index() {
         な人間です。
       </p>
       
-       <ul className="list-disc mt-4 pl-6 space-y-2">
+       <ul className="list-disc mt-4 pl-6 space-y-2" style={{ textAlign: "center" }}>
         <h2 className="marker-border-2" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
           display: "inline-block",}}>
           Skills
