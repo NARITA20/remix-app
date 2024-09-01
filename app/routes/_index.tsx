@@ -3,7 +3,7 @@ import koike from '.vscode/images/umi.jpg';
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "NKのポートフォリオ" },
     {
       name: "description",
       content: "Welcome to Remix on Cloudflare!",
@@ -21,13 +21,7 @@ export default function Index() {
       </p>
       
       <div style={{textAlign: "center"}}>
-      <h1 
-        style={{ 
-           
-          backgroundImage: "linear-gradient(transparent 60%, #ffcc99 60%)",
-          display: "inline-block",
-        }}
-      >
+      <h1>
         真面目
       </h1>
       </div>
@@ -37,12 +31,14 @@ export default function Index() {
         な人間です。
       </p>
       
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-        <h2 className="marker-border-2" style={{ textAlign: "center" }}>
+       <ul className="list-disc mt-4 pl-6 space-y-2">
+        <h2 className="marker-border-2" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
+          display: "inline-block",}}>
           Skills
         </h2>
+        </ul>
 
-        <li style={{ textAlign: "center" }}>
+        {/* <li style={{ textAlign: "center" }}>
           <a
             className="text-blue-700 underline visited:text-purple-900"
             target="_blank"
@@ -61,8 +57,11 @@ export default function Index() {
           >
             Cloudflare Pages Docs - Remix guide
           </a>
-        </li>
-      </ul>
+        </li> */}
+      
+
+
+
     </div>
   );
 }
