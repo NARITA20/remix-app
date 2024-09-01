@@ -21,6 +21,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        background-color: #D1E9F6;
         <Nbar />
         {children}
         <ScrollRestoration />
