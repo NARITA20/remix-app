@@ -18,7 +18,7 @@ const Nbar = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="">スキル</Nav.Link>
+            <Nav.Link href="/">スキル</Nav.Link>
             <Nav.Link href="/book">趣味</Nav.Link>
             <Nav.Link href="/book">意気込み</Nav.Link>
             
