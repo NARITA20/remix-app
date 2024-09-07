@@ -43,7 +43,12 @@ export default function Index() {
           Skills
         </h2>
         </ul>
-
+        <li>
+          java
+          <p>
+            2年間学んでいます。授業でオセロAIを作成しました。
+          </p>
+        </li>
         {/* <li style={{ textAlign: "center" }}>
           <a
             className="text-blue-700 underline visited:text-purple-900"
