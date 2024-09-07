@@ -19,7 +19,7 @@ export default function Index() {
     <div className="font-sans p-4">
       {/* .componentWrapper { margin-left: '20';}
       <div className="componentWrapper"> */}
-      <div style={{ display:'block',marginLeft: '150px', marginRight: '150px' }}>
+      <div style={{ display:'block',marginLeft: '150px', marginRight: '150px' ,marginBottom: '150px'}}>
       <Caro  img1={imagesource} img2={imagesource} img3={imagesource} />
       </div>
       <p style={{ textAlign: "center" }}>
