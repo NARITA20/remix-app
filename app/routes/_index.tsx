@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
-import koike from '.vscode/images/umi.jpg';
+import Caro from "~/components/Caro";
 
 export const meta: MetaFunction = () => {
   return [
@@ -12,9 +12,11 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
+  const imagesource = 'public/img/kokuritukyuogizyou.jpg'
+
   return (
     <div className="font-sans p-4">
-      <img src={koike} className="App-logo" alt="logo" />
+      <Caro  img1={imagesource} img2={imagesource} img3={imagesource} />
 
       <p style={{ textAlign: "center" }}>
         私を一言で表すと、
