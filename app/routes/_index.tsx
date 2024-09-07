@@ -11,8 +11,9 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+
 export default function Index() {
-  const imagesource = 'public/img/kokuritukyuogizyou.jpg'
+  const imagesource = 'img/kokuritukyuogizyou.jpg'
 
   return (
     <div className="font-sans p-4">
