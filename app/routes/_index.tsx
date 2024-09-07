@@ -44,7 +44,7 @@ export default function Index() {
         </h2>
         </ul>
         <li style={{ textAlign: "center" }}>
-          java
+          <h4>java</h4>
           <p style={{ textAlign: "center" }}>
             2年間学んでいます。授業でオセロAIを作成しました。
           </p>
