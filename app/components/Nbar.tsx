@@ -2,7 +2,6 @@ import {
   Container,
   Nav,
   Navbar,
-  NavDropdown,
   Button,
   Form,
 } from "react-bootstrap";
@@ -19,18 +18,10 @@ const Nbar = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/book">book</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="">スキル</Nav.Link>
+            <Nav.Link href="/book">趣味</Nav.Link>
+            <Nav.Link href="/book">意気込み</Nav.Link>
+            
             <Nav.Link href="#" disabled>
               Link
             </Nav.Link>
