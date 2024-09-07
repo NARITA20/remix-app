@@ -43,9 +43,9 @@ export default function Index() {
           Skills
         </h2>
         </ul>
-        <li>
+        <li style={{ textAlign: "center" }}>
           java
-          <p>
+          <p style={{ textAlign: "center" }}>
             2年間学んでいます。授業でオセロAIを作成しました。
           </p>
         </li>
