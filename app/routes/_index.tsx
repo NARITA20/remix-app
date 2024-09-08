@@ -91,7 +91,9 @@ export default function Index() {
             href="https://github.com/NARITA20?tab=repositories"
             rel="noreferrer"
           >
+            <div style={{ textAlign: "center" }}>
             https://github.com/NARITA20?tab=repositories
+            </div>
           </a>
         {/* <li style={{ textAlign: "center" }}>
           
