@@ -26,10 +26,9 @@ export default function Index() {
         私を一言で表すと、
       </p>
       
-      <div style={{textAlign: "center"}}>
-      <h1>
+      <div style={{textAlign: "center"}} className="text-7xl">
         真面目
-      </h1>
+      
       </div>
       
 
@@ -38,17 +37,18 @@ export default function Index() {
       </p>
       
        <ul className="list-disc mt-4 pl-6 space-y-2" style={{ textAlign: "center" }}>
-        <h2 className="marker-border-2" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
+        <div className="marker-border-2 text-4xl" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
           display: "inline-block",}}>
           Skills
-        </h2>
+        </div>
         </ul>
-        <li style={{ textAlign: "center" }}>
+        <li style={{ textAlign: "center" }} className="text-4xl">
           java
-          <p style={{ textAlign: "center" }}>
+        </li>
+        <p></p>
+        <p style={{ textAlign: "center" }}>
             2年間学んでいます。授業でオセロAIを作成しました。
           </p>
-        </li>
         {/* <li style={{ textAlign: "center" }}>
           <a
             className="text-blue-700 underline visited:text-purple-900"
