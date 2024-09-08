@@ -14,13 +14,15 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   const imagesource = 'img/kokuritukyuogizyou.jpg'
+  const imagesourcesyumi = 'img/kakusigotocar.jpg'
+
 
   return (
     <div className="font-sans p-4">
       {/* .componentWrapper { margin-left: '20';}
       <div className="componentWrapper"> */}
       <div style={{ display:'block',marginLeft: '200px', marginRight: '200px' ,marginBottom: '50px'}}>
-      <Caro  img1={imagesource} img2={imagesource} img3={imagesource} />
+      <Caro  img1={imagesource} img2={imagesourcesyumi} img3={imagesource} />
       </div>
       <p style={{ textAlign: "center" }}>
         私を一言で表すと、
