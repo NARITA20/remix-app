@@ -23,7 +23,7 @@ export default function Index() {
       <Caro  img1={imagesource} img2={imagesourcesyumi} img3={imagesource} />
       </div>
       <p style={{ textAlign: "center" }}>
-        私を一言で表すと、
+        私を一言で表すと、情報科学部ディジタルメディア学科山田太郎がいます。
       </p>
       <div style={{textAlign: "center"}} className="text-7xl">
         真面目
