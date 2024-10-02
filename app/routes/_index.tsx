@@ -3,7 +3,7 @@ import Caro from "~/components/Caro";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "NKのポートフォリオ" },
+    { title: "情報科学部ディジタルメディア学科山田太郎がいます。" },
     {
       name: "description",
       content: "Welcome to Remix on Cloudflare!",
@@ -23,7 +23,7 @@ export default function Index() {
       <Caro  img1={imagesource} img2={imagesourcesyumi} img3={imagesource} />
       </div>
       <p style={{ textAlign: "center" }}>
-        私を一言で表すと、情報科学部ディジタルメディア学科山田太郎がいます。
+        私を一言で表すと、
       </p>
       <div style={{textAlign: "center"}} className="text-7xl">
         真面目
