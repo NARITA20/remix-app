@@ -2,8 +2,6 @@ import {
   Container,
   Nav,
   Navbar,
-  Button,
-  Form,
 } from "react-bootstrap";
 
 const Nbar = () => {
@@ -22,11 +20,9 @@ const Nbar = () => {
             <Nav.Link href="/book">趣味</Nav.Link>
             <Nav.Link href="/book">意気込み</Nav.Link>
             
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            
           </Nav>
-          <Form className="d-flex">
+          {/* <Form className="d-flex">
             <Form.Control
               type="search"
               placeholder="Search"
@@ -34,7 +30,7 @@ const Nbar = () => {
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
-          </Form>
+          </Form> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
