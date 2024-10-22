@@ -29,7 +29,22 @@ export default function Index() {
           display: "inline-block",}}>
           Product
       </div>
+      <p style={{ textAlign: "center" }}>
+        ↓以下に単語の連想システムの概要を記載します。
+      </p>
       </ul>
+      <a style={{ textAlign: "center" }}
+            className="text-blue-700 underline visited:text-purple-900"
+            target="_blank"
+            href="https://drive.google.com/file/d/13P7JnG1LNEcWSdBN-5gHAUkBD9Mfy7eg/view?usp=sharing"
+            rel="noreferrer"
+          >
+            <div style={{ textAlign: "center" }}>
+            自然言語処理を用いた単語の連想システムの構築
+            </div>
+      </a>
+      <p>
+      </p>
       <p style={{ textAlign: "center" }}>
         私を一言で表すと
       </p>
