@@ -13,6 +13,7 @@ export const meta: MetaFunction = () => {
 
 
 export default function Index() {
+  const imagesourcerensou = 'img/tangorennsou.jpg'
   const imagesource = 'img/kokuritukyuogizyou.jpg'
   const imagesourcesyumi = 'img/kakusigoooooooo.jpg'
   return (
@@ -20,7 +21,7 @@ export default function Index() {
       {/* .componentWrapper { margin-left: '20';}
       <div className="componentWrapper"> */}
       <div style={{ display:'block',marginLeft: '200px', marginRight: '200px' ,marginBottom: '50px'}}>
-      <Caro  img1={imagesource} img2={imagesourcesyumi} img3={imagesource} />
+      <Caro  img1={imagesourcerensou} img2={imagesourcesyumi} img3={imagesource} />
       
       </div>
       <ul className="list-disc mt-4 pl-6 space-y-2" style={{ textAlign: "center" }}>
@@ -43,6 +44,10 @@ export default function Index() {
             自然言語処理を用いた単語の連想システムの構築
             </div>
       </a>
+      <p>
+      </p>
+      <p>
+      </p>
       <p>
       </p>
       <p style={{ textAlign: "center" }}>

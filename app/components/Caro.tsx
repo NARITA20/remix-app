@@ -14,8 +14,17 @@ const Caro = (props: Props) => {
       <Carousel.Item>
       <img src={img1} className="App-logo" alt="logo" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>自然言語処理を用いた単語の連想システムの構築</h3>
+          <a style={{ textAlign: "center" }}
+            className="text-blue-700 underline visited:text-purple-900"
+            target="_blank"
+            href="https://drive.google.com/file/d/13P7JnG1LNEcWSdBN-5gHAUkBD9Mfy7eg/view?usp=sharing"
+            rel="noreferrer"
+          >
+            <div style={{ textAlign: "center" }}>
+            https://drive.google.com/file/d/13P7JnG1LNEcWSdBN-5gHAUkBD9Mfy7eg/view?usp=sharing
+            </div>
+      </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
