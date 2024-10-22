@@ -44,9 +44,12 @@ export default function Index() {
             自然言語処理を用いた単語の連想システムの構築
             </div>
       </a>
-      <div></div>
-      <div></div>
-      <div></div>
+      <ul className="list-disc mt-4 pl-6 space-y-2" style={{ textAlign: "center" }}>
+        <div className="marker-border-2 text-4xl" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
+          display: "inline-block",}}>
+          
+        </div>
+        </ul>
       <p style={{ textAlign: "center" }}>
         私を一言で表すと
       </p>
