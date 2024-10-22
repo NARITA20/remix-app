@@ -21,11 +21,11 @@ const Caro = (props: Props) => {
           <a style={{ textAlign: "center" ,color: "black" }}
             className="text-blue-700 underline visited:text-purple-900"
             target="_blank"
-            href="https://drive.google.com/file/d/13P7JnG1LNEcWSdBN-5gHAUkBD9Mfy7eg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iC0-2I-z5Xt9GnXy39IILfhjCXBVQ7oi/view?usp=sharing"
             rel="noreferrer"
           >
             <div style={{ textAlign: "center" }}>
-            https://drive.google.com/file/d/13P7JnG1LNEcWSdBN-5gHAUkBD9Mfy7eg/view?usp=sharing
+            https://drive.google.com/file/d/1iC0-2I-z5Xt9GnXy39IILfhjCXBVQ7oi/view?usp=sharing
             </div> 
       </a>
       
