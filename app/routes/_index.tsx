@@ -3,7 +3,7 @@ import Caro from "~/components/Caro";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "NKのポートフォリオ" },
+    { title: "成田健太郎のポートフォリオ" },
     {
       name: "description",
       content: "Welcome to Remix on Cloudflare!",
