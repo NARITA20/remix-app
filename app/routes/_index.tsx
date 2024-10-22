@@ -23,7 +23,9 @@ export default function Index() {
       <Caro  img1={imagesource} img2={imagesourcesyumi} img3={imagesource} />
       <div className="marker-border-2 text-4xl" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
           display: "inline-block",}}>
-          Product
+          <p style={{ textAlign: "center" }}>
+      Product
+      </p>
       </div>
       </div>
       <p style={{ textAlign: "center" }}>
