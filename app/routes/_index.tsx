@@ -21,12 +21,11 @@ export default function Index() {
       <div className="componentWrapper"> */}
       <div style={{ display:'block',marginLeft: '200px', marginRight: '200px' ,marginBottom: '50px'}}>
       <Caro  img1={imagesource} img2={imagesourcesyumi} img3={imagesource} />
+      
+      </div>
       <div className="marker-border-2 text-4xl" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
           display: "inline-block",}}>
-          <p style={{ textAlign: "center" }}>
-      Product
-      </p>
-      </div>
+          Product
       </div>
       <p style={{ textAlign: "center" }}>
         私を一言で表すと
