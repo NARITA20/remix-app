@@ -15,7 +15,7 @@ const Caro = (props: Props) => {
       <img src={img1} className="App-logo" alt="logo" />
         <Carousel.Caption>
           <h3>自然言語処理を用いた単語の連想システムの構築</h3>
-          <a style={{ textAlign: "center" }}
+          <a style={{ textAlign: "center" ,color: "black" }}
             className="text-blue-700 underline visited:text-purple-900"
             target="_blank"
             href="https://drive.google.com/file/d/13P7JnG1LNEcWSdBN-5gHAUkBD9Mfy7eg/view?usp=sharing"
@@ -23,8 +23,9 @@ const Caro = (props: Props) => {
           >
             <div style={{ textAlign: "center" }}>
             https://drive.google.com/file/d/13P7JnG1LNEcWSdBN-5gHAUkBD9Mfy7eg/view?usp=sharing
-            </div>
+            </div> 
       </a>
+      
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
