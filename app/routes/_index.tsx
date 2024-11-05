@@ -1,5 +1,7 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import Caro from "~/components/Caro";
+import Images from "~/components/Images";
+
 
 export const meta: MetaFunction = () => {
   return [
@@ -25,7 +27,7 @@ export default function Index() {
       
       </div>
       <ul className="list-disc mt-4 pl-6 space-y-2" style={{ textAlign: "center" }}>
-
+      
       <div className="marker-border-2 text-4xl" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
           display: "inline-block",}}>
           Product
@@ -50,6 +52,13 @@ export default function Index() {
           
         </div>
         </ul>
+        <div className="marker-border-2 text-4xl" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
+          display: "inline-block",}}>
+          About Me
+      </div>
+      <Images/>
+
+
       <p style={{ textAlign: "center" }}>
         私を一言で表すと
       </p>
