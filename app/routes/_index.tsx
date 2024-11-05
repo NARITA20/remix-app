@@ -58,7 +58,7 @@ export default function Index() {
           display: "inline-block",}}>
           About Me
       </div>
-<div style={{display: "flex",justifyContent: "center", alignItems: "center", gap: "10px", marginTop: "10px" }}>
+<div style={{display: "flex",justifyContent: "center", alignItems: "center", marginTop: "10px" }}>
 <Images/>
 <span>成田健太郎</span>
 </div>
