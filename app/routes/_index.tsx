@@ -57,8 +57,8 @@ export default function Index() {
         <div className="marker-border-2 text-4xl" style={{ textAlign: "center" ,backgroundImage: "linear-gradient(transparent 40%, #FAFFAF 60%)",
           display: "inline-block",}}>
           About Me
-          <Images/>
       </div>
+      <Images/>
       </ul>
 
 
