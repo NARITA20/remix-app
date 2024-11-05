@@ -8,7 +8,7 @@ function ShapeExample() {
     <Container>
       <Row>
         
-        <Col xs={{span:4 ,offset:2}} md={{span:3, offset:2}}>
+        <Col xs={{span:3 ,offset:2}} md={{span:3, offset:2}}>
           <Image src='img/Aboutme2.jpg' roundedCircle />
         </Col>
       </Row>
