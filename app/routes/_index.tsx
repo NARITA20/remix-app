@@ -60,7 +60,7 @@ export default function Index() {
       </div>
 <div style={{display: "flex",justifyContent: "center", alignItems: "center", marginTop: "10px" }}>
 <Images/>
-<span>成田健太郎</span>
+成田健太郎
 </div>
       
       </ul>
