@@ -59,7 +59,7 @@ export default function Index() {
           About Me
       </div>
       <Images/>
-      <p></p>
+      <p>成田健太郎</p>
       </ul>
 
 
