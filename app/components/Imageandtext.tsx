@@ -8,15 +8,17 @@ function ShapeExample() {
   return (
     <Container>
       <Row>
-      <div style={{display: "flex",justifyContent: "center", alignItems: "right"}}>        
+      <div style={{display: "flex",justifyContent: "center"}}> 
+        <div style={{ alignItems: "right"}}>       
         <Col>
         <Images/>
         </Col>
         </div>
+
         
 
 
-        <div style={{display: "flex",justifyContent: "center", alignItems: "left"}} className="text-7xl">        
+        <div style={{ alignItems: "right"}}>       
 
         <Col>
         <li>
@@ -24,6 +26,8 @@ function ShapeExample() {
         成田健太郎
         
         </li>
+        </Col>
+        </div>
         <p style={{ textAlign: "center" }}>
         
        </p>
