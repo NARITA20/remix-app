@@ -16,13 +16,13 @@ function ShapeExample() {
         
 
 
-        <div style={{display: "flex",justifyContent: "center", alignItems: "left"}}>        
+        <div style={{display: "flex",justifyContent: "center", alignItems: "left"}} className="text-7xl">        
 
         <Col>
         <li>
-          <h2>
+          
         成田健太郎
-        </h2>
+        
         </li>
         <p style={{ textAlign: "center" }}>
         
