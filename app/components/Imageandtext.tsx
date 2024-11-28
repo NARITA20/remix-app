@@ -18,13 +18,10 @@ function ShapeExample() {
         
 
 
-        <div style={{ alignItems: "right"}}>       
-
+        <div style={{ alignItems: "right"}} className="text-5xl">       
         <Col>
         <li>
-          
         成田健太郎
-        
         </li>
         </Col>
         </div>
