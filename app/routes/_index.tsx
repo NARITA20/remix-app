@@ -62,9 +62,10 @@ export default function Index() {
 
 
 <div className="container">
+  <link rel="stylesheet" href="style.css">
   <div className="item"><Images /> </div>
   <div className="item">成田健太郎 </div>
-  <link rel="stylesheet" href="style.css"></link>
+  </link>
 </div>
 
 </div>
