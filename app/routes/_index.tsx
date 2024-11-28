@@ -68,7 +68,7 @@ export default function Index() {
   <div className="item">成田健太郎 </div>
 </div>
 */}
-<Imageandtext/>
+<Images/>
 
 
 </div>
