@@ -33,7 +33,7 @@ function ShapeExample() {
        </p>
 
        
-        </Col>
+        
         </div>
         
       </Row>
