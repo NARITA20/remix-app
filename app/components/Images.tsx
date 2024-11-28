@@ -8,9 +8,9 @@ function ShapeExample() {
     <Container>
       <Row>
         
-        {/* <Col xs={{span:2 ,offset:7}} md={{span:2, offset:2}}> */}
+        <Col xs={{span:6 ,offset:7}} md={{span:6, offset:2}}>
           <Image src='img/Aboutme2.jpg' roundedCircle />
-        {/* </Col> */}
+        </Col>
       </Row>
     </Container>
   );
