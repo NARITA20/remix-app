@@ -7,7 +7,7 @@ function ShapeExample() {
   return (
     <Container>
       <Row>
-      <Col xs={2}md={2} >
+      <Col xs={3}md={3} >
         </Col>
         <Col xs={3}md={3} >
           <Image src='img/Aboutme2.jpg' roundedCircle />
@@ -15,8 +15,11 @@ function ShapeExample() {
         <Col xs={3} md={3}>
         <div>  </div>
         <div className="text-3xl">
-          成田 健太郎
+          ・成田 健太郎
         </div>
+        <p style={{ textAlign: "center" }}>
+            法政大学情報学部3年
+        </p>
         </Col>
       </Row>
     </Container>
