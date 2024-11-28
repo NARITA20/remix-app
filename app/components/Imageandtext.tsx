@@ -8,12 +8,13 @@ function ShapeExample() {
   return (
     <Container>
       <Row>
-      <div style={{display: "flex",justifyContent: "center", alignItems: "center"}}>
-
-          <Images/>
-        
+      <div style={{display: "flex",justifyContent: "center", alignItems: "center"}}>        
+        <Col>
         <Images/>
+        </Col>
+        <Col>
         成田健太郎
+        </Col>
         </div>
       </Row>
     </Container>
