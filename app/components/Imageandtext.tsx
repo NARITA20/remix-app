@@ -8,7 +8,7 @@ function ShapeExample() {
   return (
     <Container>
       <Row>
-      <div style={{display: "flex",justifyContent: "center", alignItems: "center", marginTop: "10px" }}>
+      <div style={{display: "flex",justifyContent: "center", alignItems: "center"}}>
 
           <Images/>
         
