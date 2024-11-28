@@ -59,8 +59,7 @@ export default function Index() {
           About Me
       </div>
 <div style={{display: "flex",justifyContent: "center", alignItems: "center", marginTop: "10px" }}>
-<Images /> 
-<span style={{ marginLeft:0 }}>成田健太郎</span>
+
 
 <div className="container">
   <div className="item"><Images /> </div>
