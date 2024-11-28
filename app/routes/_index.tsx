@@ -61,15 +61,16 @@ export default function Index() {
 <div style={{display: "flex",justifyContent: "center", alignItems: "center", marginTop: "10px" }}>
 <Images /> 
 <span style={{ marginLeft:0 }}>成田健太郎</span>
+
+<div className="container">
+  <div className="item"><Images /> </div>
+  <div className="item">成田健太郎 </div>
+  <link rel="stylesheet" href="style.css"></link>
+</div>
+
 </div>
       
       </ul>
-
-
-
-     
-
-
       <p style={{ textAlign: "center" }}>
         私を一言で表すと
       </p>
