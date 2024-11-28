@@ -60,11 +60,19 @@ export default function Index() {
       </div>
 <div style={{display: "flex",justifyContent: "center", alignItems: "center", marginTop: "10px" }}>
 
-
+<div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: "10px",
+          }}
+        >
 <div className="container" >
   <link rel="stylesheet" href="style.css"></link>
   <div className="item"><Images /> </div>
   <div className="item">成田健太郎 </div>
+</div>
 </div>
 
 </div>
