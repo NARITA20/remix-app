@@ -18,7 +18,7 @@ function ShapeExample() {
         
 
 
-        <div style={{ alignItems: "right"}} className="text-5xl">       
+        <div style={{ alignItems: "right"}} className="text-4xl">       
         <Col>
         <li>
         成田健太郎
