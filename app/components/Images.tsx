@@ -19,7 +19,10 @@ function ShapeExample() {
         </div>
         <p></p>
         <p style={{ textAlign: "center" }}>
-            法政大学情報学部3年
+            情報科学専攻選考
+        </p>
+        <p style={{ textAlign: "center" }}>
+            自然言語処理に関する研究室所属
         </p>
         </Col>
       </Row>
