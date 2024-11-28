@@ -8,10 +8,13 @@ function ShapeExample() {
   return (
     <Container>
       <Row>
+      <div style={{display: "flex",justifyContent: "center", alignItems: "center", marginTop: "10px" }}>
+
           <Images/>
         
         <Images/>
         成田健太郎
+        </div>
       </Row>
     </Container>
   );
