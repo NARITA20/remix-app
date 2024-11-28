@@ -9,21 +9,23 @@ function ShapeExample() {
     <Container>
       <Row>
       <div style={{display: "flex",justifyContent: "center"}}> 
-        <div style={{ alignItems: "right"}}>       
-        <Col>
+        {/* <div style={{ alignItems: "right"}}>        */}
+        <Col xs={{span:3,offset:3}} md={{span:3, offset:3}}>
+
         <Images/>
         </Col>
-        </div>
+        {/* </div> */}
 
         
 
 
                
-        <Col>
+        <Col xs={{span:3,offset:3}} md={{span:3, offset:3}}>
+
         <li>
-        <div style={{ alignItems: "left"}} className="text-4xl">
+        {/* <div style={{ alignItems: "left"}} className="text-4xl"> */}
         成田健太郎
-        </div>
+        {/* </div> */}
         </li>
         </Col>
         
