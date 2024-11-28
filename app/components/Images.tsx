@@ -7,15 +7,16 @@ function ShapeExample() {
   return (
     <Container>
       <Row>
-      <Col xs={3}md={3} >
+      <Col xs={2}md={2} >
         </Col>
         <Col xs={3}md={3} >
           <Image src='img/Aboutme2.jpg' roundedCircle />
         </Col>
         <Col xs={3} md={3}>
+        <div>  </div>
         <div className="text-3xl">
           成田 健太郎
-          </div>
+        </div>
         </Col>
       </Row>
     </Container>
