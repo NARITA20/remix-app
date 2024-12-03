@@ -18,7 +18,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   const imagesourcerensou = 'img/tangorennsou.jpg'
   const imagesource = 'img/kokuritukyuogizyou.jpg'
-  const imagesourcesyumi = 'img/kakusigoooooooo.jpg'
+  const imagesourcesyumi = 'img/ヨアソビ.jpg'
   return (
     <div className="font-sans p-4">
       {/* .componentWrapper { margin-left: '20';}
