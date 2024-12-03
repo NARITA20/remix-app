@@ -35,8 +35,16 @@ const Caro = (props: Props) => {
       <img src={img2} className="App-logo" alt="logo" />
 
         <Carousel.Caption>
-          <h3>・趣味　この写真はYOASOBIのライブの写真です</h3>
-          <p>/book</p>
+          
+          <a style={{ textAlign: "center" ,color: "black" }}
+            className="text-blue-700 underline visited:text-purple-900"
+            target="_blank"
+            href="/book"
+            rel="noreferrer"
+          >
+            <h3>・趣味　この写真はYOASOBIのライブの写真です</h3>
+            
+      </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
