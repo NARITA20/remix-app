@@ -9,7 +9,7 @@ const Nbar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="/"><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">成田健太郎のポートフォリオ</link></Navbar.Brand>
+        <Navbar.Brand href="/">成田健太郎のポートフォリオ</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,8 +17,8 @@ const Nbar = () => {
             style={{ maxHeight: "150px" }}
             navbarScroll
           >
-            <Nav.Link href="/"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">スキル</link></Nav.Link>
-            <Nav.Link href="/book"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">趣味</link></Nav.Link>
+            <Nav.Link href="/">スキル</Nav.Link>
+            <Nav.Link href="/book">趣味</Nav.Link>
             
             
           </Nav>
