@@ -3,6 +3,7 @@ import {
   Nav,
   Navbar,
 } from "react-bootstrap";
+import "./style.css"
 
 const Nbar = () => {
   return (
