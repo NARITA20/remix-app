@@ -9,7 +9,7 @@ const Nbar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="/">成田健太郎のポートフォリオ</Navbar.Brand>
+        <Navbar.Brand href="/"><div className="brand">成田健太郎のポートフォリオ</div></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,8 +17,8 @@ const Nbar = () => {
             style={{ maxHeight: "150px" }}
             navbarScroll
           >
-            <Nav.Link href="/">スキル</Nav.Link>
-            <Nav.Link href="/book">趣味</Nav.Link>
+            <Nav.Link href="/"><div className="brand">スキル</div></Nav.Link>
+            <Nav.Link href="/book"><div className="brand">趣味</div></Nav.Link>
             
             
           </Nav>
