@@ -42,7 +42,7 @@ const Caro = (props: Props) => {
             href="/book"
             rel="noreferrer"
           >
-            <h3>・趣味　この写真はYOASOBIのライブの写真です</h3>
+            <h3>・趣味  この写真はYOASOBIのライブの写真です</h3>
             
       </a>
         </Carousel.Caption>
