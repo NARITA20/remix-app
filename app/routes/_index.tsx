@@ -2,6 +2,7 @@ import type { MetaFunction } from "@remix-run/cloudflare";
 import Caro from "~/components/Caro";
 import Images from "~/components/Images";
 import Imageandtext from "~/components/Imageandtext";
+import Card from "~/components/Card";
 
 
 export const meta: MetaFunction = () => {
@@ -90,6 +91,7 @@ export default function Index() {
           Skills
         </div>
         </ul>
+        <Card  img1={imagesourcerensou} />
         <li style={{ textAlign: "center" }} className="text-4xl">
           Java
         </li>
