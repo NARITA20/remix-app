@@ -15,8 +15,10 @@ const BasicExample = (props: Props) => {
         <Card.Text>
           {text1}
         </Card.Text>
+        {/*
         <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
+        */}
+        </Card.Body>
     </Card>
   );
 }
