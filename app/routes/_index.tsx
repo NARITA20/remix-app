@@ -99,13 +99,13 @@ export default function Index() {
         </ul>
         <Container>
         <Row>
-        <Col xs={4}md={3} >
+        <Col xs={2}md={4} >
         <Card  img1={imagesourcerensou} text1={"2年間学んでいます。授業でオセロAIを作成しました。"}/>
         </Col>
-        <Col xs={4}md={3} >
+        <Col xs={2}md={4} >
         <Card  img1={imagesourcerensou} text1={"2年間学んでいます。授業でオセロAIを作成しました。"}/>
         </Col>
-        <Col xs={4}md={3} >
+        <Col xs={2}md={4} >
         <Card  img1={imagesourcerensou} text1={"2年間学んでいます。授業でオセロAIを作成しました。"}/>
         </Col>
         </Row>
