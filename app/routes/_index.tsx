@@ -151,6 +151,7 @@ export default function Index() {
         </p>
         <p></p>
         <p></p>
+        */}
         <li style={{ textAlign: "center" }} className="text-4xl">
           開発経験
         </li>
@@ -175,7 +176,7 @@ export default function Index() {
             https://github.com/NARITA20?tab=repositories
             </div>
           </a>
-          */}
+          
         {/* <li style={{ textAlign: "center" }}>
           
         </li>
