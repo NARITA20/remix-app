@@ -27,8 +27,8 @@ export default function Index() {
   const imagesource = 'img/kokuritukyuogizyou.jpg'
   const imagesourcesyumi = 'img/ヨアソビ.jpg'
   const imgjava= 'img/java.jpg'
-  const imgpython= 'img/python.jpg'
-  const imgc = 'img/c++.jpg'
+  const imgpython= 'img/Python.jpg'
+  const imgc = 'img/C++.jpg'
   const imgocaml = 'img/ocaml.jpg'
   return (
     <div className="font-sans p-4">
