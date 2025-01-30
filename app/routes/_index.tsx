@@ -27,6 +27,9 @@ export default function Index() {
   const imagesource = 'img/kokuritukyuogizyou.jpg'
   const imagesourcesyumi = 'img/ヨアソビ.jpg'
   const imgjava= 'img/java.jpg'
+  const imgpython= 'img/python.jpg'
+  const imgc = 'img/c++.jpg'
+  const imgocaml = 'img/ocaml.jpg'
   return (
     <div className="font-sans p-4">
       {/* .componentWrapper { margin-left: '20';}
@@ -104,13 +107,13 @@ export default function Index() {
         <Card  img1={imgjava} text1={"2年間学んでいます。授業でオセロAIを作成しました。"}/>
         </Col>
         <Col xs={2}md={3} >
-        <Card  img1={imagesourcerensou} text1={"2年間学んでいます。授業でオセロAIを作成しました。"}/>
+        <Card  img1={imgpython} text1={"3年間学んでいます。自然言語処理の勉強や、turtleなどのライブラリを使いました。最近では、授業の一環で高校生にPythonを教えたりもしています。"}/>
         </Col>
         <Col xs={2}md={3} >
-        <Card  img1={imagesourcerensou} text1={"2年間学んでいます。授業でオセロAIを作成しました。"}/>
+        <Card  img1={imgc} text1={"半年間学んでします。ポインターなど初めて扱い、理解する事に苦労しました。"}/>
         </Col>
         <Col xs={2}md={3} >
-        <Card  img1={imagesourcerensou} text1={"2年間学んでいます。授業でオセロAIを作成しました。"}/>
+        <Card  img1={imgocaml} text1={"授業で半年間学び、自分なりの四則演算を作りました。"}/>
         </Col>
         </Row>
         </Container>
