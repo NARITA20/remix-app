@@ -3,6 +3,12 @@ import Caro from "~/components/Caro";
 import Images from "~/components/Images";
 import Imageandtext from "~/components/Imageandtext";
 import Card from "~/components/Card";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+
+
 
 
 export const meta: MetaFunction = () => {
@@ -91,7 +97,13 @@ export default function Index() {
           Skills
         </div>
         </ul>
-        <Card  img1={imagesourcerensou} />
+        <Container>
+        <Row>
+        <Col xs={3}md={3} >
+        <Card  img1={imagesourcerensou} text1={"2年間学んでいます。授業でオセロAIを作成しました。"}/>
+        </Col>
+        </Row>
+        </Container>
         <li style={{ textAlign: "center" }} className="text-4xl">
           Java
         </li>
